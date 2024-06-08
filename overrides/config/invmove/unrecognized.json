@@ -30,7 +30,10 @@
     "de.maxhenkel.voicechat.gui.VoiceChatSettingsScreen": true,
     "de.maxhenkel.voicechat.gui.audiodevice.SelectMicrophoneScreen": true,
     "de.maxhenkel.voicechat.gui.audiodevice.SelectSpeakerScreen": true,
-    "net.minecraft.class_5375": true
+    "net.minecraft.class_5375": true,
+    "de.maxhenkel.voicechat.gui.volume.AdjustVolumesScreen": true,
+    "xaero.map.gui.GuiWorldMapSettings": true,
+    "snownee.jade.gui.HomeConfigScreen": true
   },
   "hideBackground": {
     "net.minecraft.class_4895": true,

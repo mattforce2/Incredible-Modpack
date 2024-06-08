@@ -42,7 +42,7 @@ ao:true
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:"true"
-resourcePacks:["fabric","file/Faithful32x - Collection","file/Faithful32x - Mods","file/Faithful32x - Custom","file/Cleo\u0027s Adventure","file/Faithful32x - Dark UI","file/Expressive Fresh Moves v3.0.1.zip"]
+resourcePacks:["fabric","file/Faithful32x - Collection","file/Faithful32x - Mods","file/Faithful32x - Custom","file/Faithful32x - Dark UI","file/Faithful32x - Visual Infestation.zip","file/Expressive Fresh Moves v3.0.1.zip"]
 incompatibleResourcePacks:[]
 lastServer:matthew.jinxservers.com
 lang:en_us
