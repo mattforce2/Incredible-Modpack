@@ -1,0 +1,186 @@
+{
+	"credit": "Made with Blockbench",
+	"texture": "textures/entity/enchanting_table_book.png",
+	"textureSize": [64, 32],
+	"models": [
+		{
+			"part": "book_spine",
+			"id": "book_spine",
+			"invertAxis": "xy",
+			"translate": [0, -5, 0],
+			"submodels": [
+				{
+					"id": "book",
+					"invertAxis": "xy",
+					"translate": [0, 5.45, 0],
+					"boxes": [
+						{
+							"coordinates": [-1, -4, -0.5, 2, 7, 0.5],
+							"uvNorth": [18, 2, 20, 9],
+							"uvEast": [17, 2, 16, 9],
+							"uvSouth": [20, 2, 18, 9],
+							"uvWest": [21, 2, 22, 9],
+							"uvUp": [20, 1, 18, 0],
+							"uvDown": [20, 11, 18, 10]
+						}
+					],
+					"submodels": [
+						{
+							"id": "cover_left2",
+							"invertAxis": "xy",
+							"translate": [-1, 3, 0],
+							"boxes": [
+								{
+									"coordinates": [-4, -7, 0, 4, 7, 0.5],
+									"uvNorth": [25, 2, 29, 9],
+									"uvEast": [24, 2, 23, 9],
+									"uvSouth": [29, 2, 25, 9],
+									"uvWest": [31, 2, 30, 9],
+									"uvUp": [29, 1, 25, 0],
+									"uvDown": [29, 11, 25, 10]
+								}
+							]
+						},
+						{
+							"id": "cover_right2",
+							"invertAxis": "xy",
+							"translate": [1, 3, 0],
+							"boxes": [
+								{
+									"coordinates": [0, -7, 0, 4, 7, 0.5],
+									"uvNorth": [29, 2, 25, 9],
+									"uvEast": [31, 2, 30, 9],
+									"uvSouth": [25, 2, 29, 9],
+									"uvWest": [23, 2, 24, 9],
+									"uvUp": [25, 1, 29, 0],
+									"uvDown": [25, 10, 29, 11]
+								}
+							]
+						},
+						{
+							"id": "pages_left2",
+							"invertAxis": "xy",
+							"translate": [0, 3, 1],
+							"boxes": [
+								{
+									"coordinates": [-3.5, -7, -0.5, 3.5, 7, 0.5],
+									"uvNorth": [3, 15, 10, 29],
+									"uvEast": [2, 15, 0, 29],
+									"uvSouth": [10, 15, 3, 29],
+									"uvWest": [12, 15, 14, 29],
+									"uvUp": [10, 14, 3, 12],
+									"uvDown": [10, 32, 3, 30]
+								}
+							]
+						},
+						{
+							"id": "pages_right2",
+							"invertAxis": "xy",
+							"translate": [0, 3, 1],
+							"submodels": [
+								{
+									"id": "rotation2",
+									"invertAxis": "xy",
+									"translate": [0, -7, 0.5],
+									"boxes": [
+										{
+											"coordinates": [0, 0, -1, 3.5, 7, 0.5],
+											"uvNorth": [25, 15, 18, 29],
+											"uvEast": [29, 15, 27, 29],
+											"uvSouth": [18, 15, 25, 29],
+											"uvWest": [17, 15, 15, 29],
+											"uvUp": [18, 14, 25, 12],
+											"uvDown": [18, 30, 25, 32]
+										}
+									]
+								}
+							]
+						},
+						{
+							"id": "flipping_page_left2",
+							"invertAxis": "xy",
+							"translate": [0, 3, 1],
+							"boxes": [
+								{
+									"coordinates": [-3.5, -7, 0, 3.5, 7, 0],
+									"uvNorth": [18, 15, 25, 29],
+									"uvSouth": [10, 15, 3, 29]
+								}
+							]
+						},
+						{
+							"id": "flipping_page_right2",
+							"invertAxis": "xy",
+							"translate": [0, 3, 1],
+							"submodels": [
+								{
+									"id": "rotation",
+									"invertAxis": "xy",
+									"translate": [0, 0, 0],
+									"boxes": [
+										{
+											"coordinates": [0, -7, 0, 3.5, 7, 0],
+											"uvNorth": [10, 15, 3, 29],
+											"uvSouth": [18, 15, 25, 29]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"animations": [
+				{
+					"cover_left2.ry": "torad(-90) + -cover_left.ry",
+					"cover_right2.ry": "torad(-90) + -cover_right.ry",
+					"pages_left2.ry": "torad(-90) + -pages_left.ry",
+					"pages_left2.tz": "-pages_left.ry/1.6",
+					"pages_right2.ry": "torad(90) + -pages_right.ry",
+					"pages_right2.tz": "pages_right.ry/1.6",
+					"flipping_page_left2.ry": "torad(-90) + -flipping_page_left.ry",
+					"flipping_page_left2.tz": "-pages_left.ry/1.6",
+					"flipping_page_right2.ry": "torad(90) + -flipping_page_right.ry",
+					"flipping_page_right2.tz": "pages_right.ry/1.6",
+					"book.rx": 0
+				}
+			]
+		},
+		{
+			"part": "cover_left",
+			"id": "cover_left",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0]
+		},
+		{
+			"part": "cover_right",
+			"id": "cover_right",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0]
+		},
+		{
+			"part": "pages_left",
+			"id": "pages_left",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0]
+		},
+		{
+			"part": "pages_right",
+			"id": "pages_right",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0]
+		},
+		{
+			"part": "flipping_page_left",
+			"id": "flipping_page_left",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0]
+		},
+		{
+			"part": "flipping_page_right",
+			"id": "flipping_page_right",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0]
+		}
+	]
+}

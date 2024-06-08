@@ -1,0 +1,6 @@
+{
+	"parent" : "block/lilac",
+	"textures": {
+		"cross": "block/lilac2"
+	}
+}

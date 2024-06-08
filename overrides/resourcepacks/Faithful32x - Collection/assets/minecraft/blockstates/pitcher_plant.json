@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "half=lower":
+    [{"model": "minecraft:block/pitcher_plant"},
+    {"model": "minecraft:block/pitcher_plant", "y": 90},
+    {"model": "minecraft:block/pitcher_plant", "y": 180},
+    {"model": "minecraft:block/pitcher_plant", "y": 270}],
+    
+      "half=upper":
+      [{"model": "minecraft:block/pitcher_air"},
+      {"model": "minecraft:block/pitcher_air", "y": 90},
+      {"model": "minecraft:block/pitcher_air", "y": 180},
+      {"model": "minecraft:block/pitcher_air", "y": 270}]
+  
+    }
+}

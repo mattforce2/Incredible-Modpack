@@ -1,0 +1,5 @@
+{
+			"parent": "item/enchanted_book",
+			"textures": {
+				"0": "item/enchanted_book/pickaxe/silk_touch"
+			} }

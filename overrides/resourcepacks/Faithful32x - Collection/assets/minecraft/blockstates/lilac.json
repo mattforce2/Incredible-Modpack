@@ -1,0 +1,25 @@
+{
+  "variants": {
+    "half=lower":
+    [{"model": "minecraft:block/lilac"},
+      {"model": "minecraft:block/lilac", "y": 90},
+      {"model": "minecraft:block/lilac", "y": 180},
+      {"model": "minecraft:block/lilac", "y": 270},
+    
+      {"model": "minecraft:block/lilac1"},
+      {"model": "minecraft:block/lilac1", "y": 90},
+      {"model": "minecraft:block/lilac1", "y": 180},
+      {"model": "minecraft:block/lilac1", "y": 270},
+    
+      {"model": "minecraft:block/lilac2"},
+      {"model": "minecraft:block/lilac2", "y": 90},
+      {"model": "minecraft:block/lilac2", "y": 180},
+      {"model": "minecraft:block/lilac2", "y": 270}],
+
+    "half=upper":
+    [{"model": "minecraft:block/lilac_air"},
+      {"model": "minecraft:block/lilac_air", "y": 90},
+      {"model": "minecraft:block/lilac_air", "y": 180},
+      {"model": "minecraft:block/lilac_air", "y": 270}]
+  }
+}

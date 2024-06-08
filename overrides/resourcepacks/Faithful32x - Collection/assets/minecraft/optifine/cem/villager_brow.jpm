@@ -1,0 +1,25 @@
+{
+	"texture": "villagers",
+	"textureSize": [64, 32],
+	"credit": "Made with Blockbench",
+	"boxes": [
+		{
+			"coordinates": [-3.53, -0.5, -0.15, 0.52, 1, 0.25],
+			"uvNorth": [0, 0, 4, 4],
+			"uvEast": [0, 0, 2, 4],
+			"uvSouth": [4, 0, 0, 4],
+			"uvWest": [2, 0, 4, 4],
+			"uvUp": [4, 2, 0, 0],
+			"uvDown": [4, 4, 0, 2]
+		},
+		{
+			"coordinates": [3.01, -0.5, -0.15, 0.52, 1, 0.25],
+			"uvNorth": [0, 0, 4, 4],
+			"uvEast": [0, 0, 2, 4],
+			"uvSouth": [4, 0, 0, 4],
+			"uvWest": [2, 0, 4, 4],
+			"uvUp": [4, 2, 0, 0],
+			"uvDown": [4, 4, 0, 2]
+		}
+	]
+}

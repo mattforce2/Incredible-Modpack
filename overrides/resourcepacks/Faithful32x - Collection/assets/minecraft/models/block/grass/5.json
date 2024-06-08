@@ -1,0 +1,8 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "block/grass/1",
+	"textures": {
+		"cross": "block/grass/5"
+    }
+}
+

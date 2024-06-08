@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/nether_sprouts_generated",
+  "textures": {
+    "layer0": "minecraft:item/nether_sprouts"
+  }
+}

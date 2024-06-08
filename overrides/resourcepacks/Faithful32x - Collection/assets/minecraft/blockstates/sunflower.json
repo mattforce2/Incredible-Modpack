@@ -1,0 +1,11 @@
+{
+  "variants": {
+    "half=lower": 
+      [{"model": "minecraft:block/sunflower"},
+      {"model": "minecraft:block/sunflower1"},
+      {"model": "minecraft:block/sunflower2"}],
+    "half=upper":
+    
+    {"model": "minecraft:block/sunflower_air"}
+  }
+}

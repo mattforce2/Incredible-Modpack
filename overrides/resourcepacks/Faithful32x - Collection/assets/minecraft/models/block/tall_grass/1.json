@@ -1,0 +1,45 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "block/tinted_cross",
+	"textures": {
+		"cross": "block/tall_grass_top"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 4],
+			"to": [16, 20, 4],
+			"rotation": {"angle": 22.5, "axis": "x", "origin": [0, 0, 4]},
+			"faces": {
+				"north": {"uv": [0, 6, 8, 16], "texture": "#cross", "tintindex": 0},
+				"south": {"uv": [0, 6, 8, 16], "texture": "#cross", "tintindex": 0}
+			}
+		},
+		{
+			"from": [11.69552, -1.53073, 0],
+			"to": [11.69552, 18.46927, 16],
+			"rotation": {"angle": 22.5, "axis": "z", "origin": [8, 0, 8]},
+			"faces": {
+				"east": {"uv": [0, 6, 8, 16], "texture": "#cross", "tintindex": 0},
+				"west": {"uv": [0, 6, 8, 16], "texture": "#cross", "tintindex": 0}
+			}
+		},
+		{
+			"from": [0, -1.53073, 11.69552],
+			"to": [16, 18.46927, 11.69552],
+			"rotation": {"angle": -22.5, "axis": "x", "origin": [8, 0, 8]},
+			"faces": {
+				"north": {"uv": [0, 6, 8, 16], "texture": "#cross", "tintindex": 0},
+				"south": {"uv": [0, 6, 8, 16], "texture": "#cross", "tintindex": 0}
+			}
+		},
+		{
+			"from": [4.30448, -1.53073, 0],
+			"to": [4.30448, 18.46927, 16],
+			"rotation": {"angle": -22.5, "axis": "z", "origin": [8, 0, 8]},
+			"faces": {
+				"east": {"uv": [0, 6, 8, 16], "texture": "#cross", "tintindex": 0},
+				"west": {"uv": [0, 6, 8, 16], "texture": "#cross", "tintindex": 0}
+			}
+		}
+	]
+}

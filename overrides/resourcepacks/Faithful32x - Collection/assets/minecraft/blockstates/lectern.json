@@ -1,0 +1,59 @@
+{
+  "variants": {
+    "facing=east":
+    [{"model": "block/lectern","y": 90},
+      {"model": "block/lectern/1","y": 90},
+      {"model": "block/lectern/2","y": 90},
+      {"model": "block/lectern/3","y": 90},
+      {"model": "block/lectern/4","y": 90},
+      {"model": "block/lectern/5","y": 90},
+      {"model": "block/lectern/6","y": 90},
+      {"model": "block/lectern/7","y": 90},
+      {"model": "block/lectern/8","y": 90},
+      {"model": "block/lectern/9","y": 90},
+      {"model": "block/lectern/10","y": 90},
+      {"model": "block/lectern/11","y": 90}],
+
+    "facing=north":
+    [{"model": "block/lectern"},
+      {"model": "block/lectern/1"},
+      {"model": "block/lectern/2"},
+      {"model": "block/lectern/3"},
+      {"model": "block/lectern/4"},
+      {"model": "block/lectern/5"},
+      {"model": "block/lectern/6"},
+      {"model": "block/lectern/7"},
+      {"model": "block/lectern/8"},
+      {"model": "block/lectern/9"},
+      {"model": "block/lectern/10"},
+      {"model": "block/lectern/11"}],
+
+    "facing=south":
+    [{"model": "block/lectern","y": 180},
+      {"model": "block/lectern/1","y": 180},
+      {"model": "block/lectern/2","y": 180},
+      {"model": "block/lectern/3","y": 180},
+      {"model": "block/lectern/4","y": 180},
+      {"model": "block/lectern/5","y": 180},
+      {"model": "block/lectern/6","y": 180},
+      {"model": "block/lectern/7","y": 180},
+      {"model": "block/lectern/8","y": 180},
+      {"model": "block/lectern/9","y": 180},
+      {"model": "block/lectern/10","y": 180},
+      {"model": "block/lectern/11","y": 180}],
+
+    "facing=west":
+    [{"model": "block/lectern","y": 270},
+      {"model": "block/lectern/1","y": 270},
+      {"model": "block/lectern/2","y": 270},
+      {"model": "block/lectern/3","y": 270},
+      {"model": "block/lectern/4","y": 270},
+      {"model": "block/lectern/5","y": 270},
+      {"model": "block/lectern/6","y": 270},
+      {"model": "block/lectern/7","y": 270},
+      {"model": "block/lectern/8","y": 270},
+      {"model": "block/lectern/9","y": 270},
+      {"model": "block/lectern/10","y": 270},
+      {"model": "block/lectern/11","y": 270}]
+  }
+}

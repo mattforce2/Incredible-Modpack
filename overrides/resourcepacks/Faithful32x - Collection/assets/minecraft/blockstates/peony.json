@@ -1,0 +1,25 @@
+{
+  "variants": {
+    "half=lower":
+    [{"model": "minecraft:block/peony"},
+      {"model": "minecraft:block/peony", "y": 90},
+      {"model": "minecraft:block/peony", "y": 180},
+      {"model": "minecraft:block/peony", "y": 270},
+    
+      {"model": "minecraft:block/peony1"},
+      {"model": "minecraft:block/peony1", "y": 90},
+      {"model": "minecraft:block/peony1", "y": 180},
+      {"model": "minecraft:block/peony1", "y": 270},
+    
+      {"model": "minecraft:block/peony2"},
+      {"model": "minecraft:block/peony2", "y": 90},
+      {"model": "minecraft:block/peony2", "y": 180},
+      {"model": "minecraft:block/peony2", "y": 270}],
+
+    "half=upper":
+    [{"model": "minecraft:block/peony_air"},
+      {"model": "minecraft:block/peony_air", "y": 90},
+      {"model": "minecraft:block/peony_air", "y": 180},
+      {"model": "minecraft:block/peony_air", "y": 270}]
+  }
+}

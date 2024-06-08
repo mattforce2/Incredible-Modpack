@@ -1,0 +1,45 @@
+{
+  "schema_version": "2",
+  
+  "default_packs": [
+	"vanilla",
+	"fabric",
+	"file/Essential Resources",
+	"minecraft:supporteatinganimation",
+	"presencefootsteps:default_sound_pack",
+	"file/Faithful32x - Collection",
+	"file/Faithful32x - Mods",
+	"file/Faithful32x - Custom",
+	"file/Faithful32x - Dark UI",
+	"file/Cleo's Adventure"
+  ],
+  "pack_overrides": {
+    "fabric": {
+	  "default_position": "BOTTOM"
+	},
+	"required": [
+	  "vanilla",
+	  "file/Essential Resources",
+	  "minecraft:supporteatinganimation",
+	  "presencefootsteps:default_sound_pack"
+	],
+	"invisible": [
+	  "black_icons",
+	  "white_icons",
+	  "classic_icons",
+	  "high_contrast",
+	  "programmer_art",
+	  "continuity:default",
+	  "continuity:glass_pane_culling_fix"
+	],
+    "$$invisible": {
+      "hidden": true
+    },
+	"$$required": {
+	  "default_position": "BOTTOM",
+	  "required": true,
+	  "hidden": true,
+	  "fixed_position": true
+	}
+  }
+}

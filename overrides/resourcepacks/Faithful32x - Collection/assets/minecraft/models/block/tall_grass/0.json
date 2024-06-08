@@ -1,0 +1,21 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:block/tinted_cross",
+	"textures": {
+		"cross": "block/tall_grass_bottom"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 0, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 1, 3], "texture": "#cross"},
+				"east": {"uv": [0, 0, 1, 3], "texture": "#cross"},
+				"south": {"uv": [0, 0, 1, 3], "texture": "#cross"},
+				"west": {"uv": [0, 0, 1, 3], "texture": "#cross"},
+				"up": {"uv": [0, 0, 1, 3], "texture": "#cross"},
+				"down": {"uv": [0, 0, 1, 3], "texture": "#cross"}
+			}
+		}
+	]
+}

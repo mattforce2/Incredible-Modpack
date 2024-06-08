@@ -1,0 +1,7 @@
+{
+	"parent": "block/azure_bluet",
+	"textures": {
+		"cross": "block/azure_bluet1",
+		"particle": "block/break/azure_bluet"
+	}
+}

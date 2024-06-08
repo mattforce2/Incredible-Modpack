@@ -1,0 +1,51 @@
+{
+  "variants": {
+    "half=lower":
+    
+   [{"model": "minecraft:block/rose_bush"},
+   {"model": "minecraft:block/rose_bush", "y": 90},
+   {"model": "minecraft:block/rose_bush", "y": 180},
+   {"model": "minecraft:block/rose_bush", "y": 270},
+  
+   {"model": "minecraft:block/rose_bush1"},
+   {"model": "minecraft:block/rose_bush1", "y": 90},
+   {"model": "minecraft:block/rose_bush1", "y": 180},
+   {"model": "minecraft:block/rose_bush1", "y": 270},
+  
+   {"model": "minecraft:block/rose_bush2"},
+   {"model": "minecraft:block/rose_bush2", "y": 90},
+   {"model": "minecraft:block/rose_bush2", "y": 180},
+   {"model": "minecraft:block/rose_bush2", "y": 270},
+  
+   {"model": "minecraft:block/rose_bush3"},
+   {"model": "minecraft:block/rose_bush3", "y": 90},
+   {"model": "minecraft:block/rose_bush3", "y": 180},
+   {"model": "minecraft:block/rose_bush3", "y": 270},
+  
+   {"model": "minecraft:block/rose_bush4"},
+   {"model": "minecraft:block/rose_bush4", "y": 90},
+   {"model": "minecraft:block/rose_bush4", "y": 180},
+   {"model": "minecraft:block/rose_bush4", "y": 270},
+  
+   {"model": "minecraft:block/rose_bush5"},
+   {"model": "minecraft:block/rose_bush5", "y": 90},
+   {"model": "minecraft:block/rose_bush5", "y": 180},
+   {"model": "minecraft:block/rose_bush5", "y": 270},
+  
+   {"model": "minecraft:block/rose_bush6"},
+   {"model": "minecraft:block/rose_bush6", "y": 90},
+   {"model": "minecraft:block/rose_bush6", "y": 180},
+   {"model": "minecraft:block/rose_bush6", "y": 270},
+  
+   {"model": "minecraft:block/rose_bush7"},
+   {"model": "minecraft:block/rose_bush7", "y": 90},
+   {"model": "minecraft:block/rose_bush7", "y": 180},
+   {"model": "minecraft:block/rose_bush7", "y": 270}],
+
+    "half=upper":
+    [{"model": "minecraft:block/rose_bush_air"},
+      {"model": "minecraft:block/rose_bush_air", "y": 90},
+      {"model": "minecraft:block/rose_bush_air", "y": 180},
+      {"model": "minecraft:block/rose_bush_air", "y": 270}]
+  }
+}

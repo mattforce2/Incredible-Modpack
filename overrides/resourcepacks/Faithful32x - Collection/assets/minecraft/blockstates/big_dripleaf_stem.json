@@ -1,0 +1,37 @@
+{
+	"variants": {
+
+		"facing=east":
+		
+		  [ {"model": "minecraft:block/big_dripleaf_stem","y": 90,"weight": 100},
+
+			{"model": "minecraft:block/big_dripleaf_stem_with_leaf_1","y": 90,"weight": 30},
+
+			{"model": "minecraft:block/big_dripleaf_stem_with_leaf_2","y": 90,"weight": 30} ],
+
+		"facing=north":
+		
+		  [ {"model": "minecraft:block/big_dripleaf_stem","weight": 100},
+
+			{"model": "minecraft:block/big_dripleaf_stem_with_leaf_1","weight": 30},
+
+			{"model": "minecraft:block/big_dripleaf_stem_with_leaf_2","weight": 30} ],
+
+		"facing=south":
+
+		  [ {"model": "minecraft:block/big_dripleaf_stem","y": 180,"weight": 100},
+
+			{"model": "minecraft:block/big_dripleaf_stem_with_leaf_1","y": 180,"weight": 30},
+			
+			{"model": "minecraft:block/big_dripleaf_stem_with_leaf_2","y": 180,"weight": 30} ],
+
+		"facing=west":
+		
+		  [ {"model": "minecraft:block/big_dripleaf_stem","y": 270,"weight": 100},
+
+			{"model": "minecraft:block/big_dripleaf_stem_with_leaf_1","y": 270,"weight": 30},
+
+			{"model": "minecraft:block/big_dripleaf_stem_with_leaf_2","y": 270,"weight": 30} ]
+
+	}
+}

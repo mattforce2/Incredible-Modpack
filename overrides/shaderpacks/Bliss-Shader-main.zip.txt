@@ -1,0 +1,20 @@
+#Fri Jun 07 23:56:19 MDT 2024
+CompSky_B=1.0
+EXPOSURE_MULTIPLIER=1.3
+BorderFog=false
+Morning_Uniform_Fog=2.0
+Emissive_Brightness=5.0
+POM=true
+DH_KNOWN_ISSUES=1
+TAA=false
+BLOOMY_FOG=3.0
+Noon_Cloudy_Fog=1.0
+Haze_amount=0.6
+Exposure_Speed=3.0
+RESOURCEPACK_SKY=2
+CONTRAST=1.1
+Seasons=true
+CROSSTALK=0.1
+Daily_Weather=true
+SATURATION=0.48
+VL_SAMPLES=4

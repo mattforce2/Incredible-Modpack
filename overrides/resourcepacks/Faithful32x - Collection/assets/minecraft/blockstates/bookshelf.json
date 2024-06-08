@@ -1,0 +1,34 @@
+{
+    "multipart": [
+		{ "apply": [{ "model": "block/bookshelf/structure" }] },
+		
+		{ "apply": [
+				{ "model": "block/bookshelf/books1" },
+				{ "model": "block/bookshelf/books2" },
+				{ "model": "block/bookshelf/books3" },
+				{ "model": "block/bookshelf/books4" }
+			]
+		},
+		{ "apply": [
+				{ "model": "block/bookshelf/books2", "y": 90 },
+				{ "model": "block/bookshelf/books1", "y": 90 },
+				{ "model": "block/bookshelf/books4", "y": 90 },
+				{ "model": "block/bookshelf/books3", "y": 90 }
+			]
+		},
+		{ "apply": [
+				{ "model": "block/bookshelf/books1", "y": 180 },
+				{ "model": "block/bookshelf/books2", "y": 180 },
+				{ "model": "block/bookshelf/books3", "y": 180 },
+				{ "model": "block/bookshelf/books4", "y": 180 }
+			]
+		},
+		{ "apply": [
+				{ "model": "block/bookshelf/books2", "y": 270 },
+				{ "model": "block/bookshelf/books1", "y": 270 },
+				{ "model": "block/bookshelf/books4", "y": 270 },
+				{ "model": "block/bookshelf/books3", "y": 270 }
+			]
+		}
+	]
+}

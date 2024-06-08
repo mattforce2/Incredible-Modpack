@@ -1,0 +1,6 @@
+{"variants":{"":[
+    {"model":"block/mud","weight":500},
+    {"model":"block/mud1","weight":2},
+    {"model":"block/mud2","weight":2},
+    {"model":"block/mud3","weight":2},
+    {"model":"block/mud4","weight":5}]}}

@@ -1,0 +1,6 @@
+{   "parent": "block/enchanting_table",
+    "textures": {
+        "top": "block/enchanting_table_top2",
+        "side": "block/enchanting_table_side2"
+    }
+}

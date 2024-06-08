@@ -1,0 +1,7 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "block/tall_grass/1",
+	"textures": {
+		"cross": "block/tall_grass_top3"
+    }
+}

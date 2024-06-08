@@ -1,0 +1,141 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "block/block",
+	"ambientocclusion": false,
+	"textures": {
+		"2": "block/sweet_berry_plant",
+		"3": "block/sweet_berry_bush_bottom",
+		"5": "block/sweet_berry_bush_berries",
+		"6": "block/sweet_berry_bush",
+		"7": "block/sweet_berry_bush_top",
+		"particle": "block/break/sweet_berry_bush_stage2"
+	},
+	"elements": [
+		{
+			"from": [3, 2.5, 3],
+			"to": [13, 12.5, 13],
+			"faces": {
+				"north": {"uv": [3, 3, 13, 13], "texture": "#6"},
+				"east": {"uv": [3, 3, 13, 13], "texture": "#6"},
+				"south": {"uv": [3, 3, 13, 13], "texture": "#6"},
+				"west": {"uv": [3, 3, 13, 13], "texture": "#6"},
+				"up": {"uv": [3, 3, 13, 13], "texture": "#7"},
+				"down": {"uv": [3, 3, 13, 13], "texture": "#3"}
+			}
+		},
+		{
+			"from": [13, 2.5, 3],
+			"to": [3, 12.5, 13],
+			"faces": {
+				"north": {"uv": [13, 3, 3, 13], "texture": "#6"},
+				"east": {"uv": [13, 3, 3, 13], "texture": "#6"},
+				"south": {"uv": [13, 3, 3, 13], "texture": "#6"},
+				"west": {"uv": [13, 3, 3, 13], "texture": "#6"},
+				"up": {"uv": [13, 3, 3, 13], "texture": "#7"},
+				"down": {"uv": [13, 3, 3, 13], "texture": "#3"}
+			}
+		},
+		{
+			"from": [0, 0, 8],
+			"to": [16, 5.5, 8],
+			"rotation": {"angle": -45, "axis": "y", "origin": [8, 2.75, 8]},
+			"faces": {
+				"north": {"uv": [0, 10.5, 16, 16], "texture": "#2"},
+				"south": {"uv": [0, 10.5, 16, 16], "texture": "#2"}
+			}
+		},
+		{
+			"from": [8, 0, 0],
+			"to": [8, 5.5, 16],
+			"rotation": {"angle": -45, "axis": "y", "origin": [8, 2.75, 8]},
+			"faces": {
+				"east": {"uv": [0, 10.5, 16, 16], "texture": "#2"},
+				"west": {"uv": [0, 10.5, 16, 16], "texture": "#2"}
+			}
+		},
+		{
+			"name": "Berry",
+			"from": [12, 6, 9],
+			"to": [14, 8, 11],
+			"rotation": {"angle": 0, "axis": "y", "origin": [13, 5, 10]},
+			"faces": {
+				"north": {"uv": [2, 2, 4, 4], "texture": "#5"},
+				"east": {"uv": [2, 2, 4, 4], "texture": "#5"},
+				"south": {"uv": [2, 2, 4, 4], "texture": "#5"},
+				"west": {"uv": [2, 2, 4, 4], "texture": "#5"},
+				"up": {"uv": [2, 0, 4, 2], "texture": "#5"},
+				"down": {"uv": [2, 4, 4, 6], "texture": "#5"}
+			}
+		},
+		{
+			"name": "Berry",
+			"from": [12, 9, 4],
+			"to": [14, 11, 6],
+			"rotation": {"angle": 0, "axis": "y", "origin": [13, 9, 5]},
+			"faces": {
+				"north": {"uv": [0, 2, 2, 4], "texture": "#5"},
+				"east": {"uv": [0, 2, 2, 4], "texture": "#5"},
+				"south": {"uv": [0, 2, 2, 4], "texture": "#5"},
+				"west": {"uv": [0, 2, 2, 4], "texture": "#5"},
+				"up": {"uv": [0, 0, 2, 2], "texture": "#5"},
+				"down": {"uv": [0, 4, 2, 6], "texture": "#5"}
+			}
+		},
+		{
+			"name": "Berry",
+			"from": [5, 5, 12],
+			"to": [7, 7, 14],
+			"rotation": {"angle": 0, "axis": "y", "origin": [6, 10, 13]},
+			"faces": {
+				"north": {"uv": [0, 2, 2, 4], "texture": "#5"},
+				"east": {"uv": [0, 2, 2, 4], "texture": "#5"},
+				"south": {"uv": [0, 2, 2, 4], "texture": "#5"},
+				"west": {"uv": [0, 2, 2, 4], "texture": "#5"},
+				"up": {"uv": [0, 0, 2, 2], "texture": "#5"},
+				"down": {"uv": [0, 4, 2, 6], "texture": "#5"}
+			}
+		},
+		{
+			"name": "Berry",
+			"from": [2, 6, 5],
+			"to": [4, 8, 7],
+			"rotation": {"angle": 0, "axis": "y", "origin": [3, 9, 6]},
+			"faces": {
+				"north": {"uv": [2, 2, 4, 4], "texture": "#5"},
+				"east": {"uv": [2, 2, 4, 4], "texture": "#5"},
+				"south": {"uv": [2, 2, 4, 4], "texture": "#5"},
+				"west": {"uv": [2, 2, 4, 4], "texture": "#5"},
+				"up": {"uv": [2, 0, 4, 2], "texture": "#5"},
+				"down": {"uv": [2, 4, 4, 6], "texture": "#5"}
+			}
+		},
+		{
+			"name": "Berry",
+			"from": [6, 6, 2],
+			"to": [8, 8, 4],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7, 5, 3]},
+			"faces": {
+				"north": {"uv": [0, 2, 2, 4], "texture": "#5"},
+				"east": {"uv": [0, 2, 2, 4], "texture": "#5"},
+				"south": {"uv": [0, 2, 2, 4], "texture": "#5"},
+				"west": {"uv": [0, 2, 2, 4], "texture": "#5"},
+				"up": {"uv": [0, 0, 2, 2], "texture": "#5"},
+				"down": {"uv": [0, 4, 2, 6], "texture": "#5"}
+			}
+		},
+		{
+			"name": "Berry",
+			"from": [6, 11.5, 9],
+			"to": [8, 13.5, 11],
+			"rotation": {"angle": 0, "axis": "y", "origin": [6, 10, 13]},
+			"faces": {
+				"north": {"uv": [4, 2, 6, 4], "texture": "#5"},
+				"east": {"uv": [4, 2, 6, 4], "texture": "#5"},
+				"south": {"uv": [4, 2, 6, 4], "texture": "#5"},
+				"west": {"uv": [4, 2, 6, 4], "texture": "#5"},
+				"up": {"uv": [4, 0, 6, 2], "texture": "#5"},
+				"down": {"uv": [4, 4, 6, 6], "texture": "#5"}
+			}
+		}
+	]
+}

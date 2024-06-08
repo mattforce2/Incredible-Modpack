@@ -1,0 +1,58 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "block/block",
+	"ambientocclusion": false,
+	"textures": {
+		"2": "block/sweet_berry_plant",
+		"3": "block/sweet_berry_bush_top",
+		"4": "block/sweet_berry_bush_bottom",
+		"all": "block/sweet_berry_bush",
+		"particle": "block/break/sweet_berry_bush_stage0"
+	},
+	"elements": [
+		{
+			"from": [4, 2.5, 4],
+			"to": [12, 10.5, 12],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, -1.5, 0]},
+			"faces": {
+				"north": {"uv": [4, 4, 12, 12], "texture": "#all"},
+				"east": {"uv": [4, 4, 12, 12], "texture": "#all"},
+				"south": {"uv": [4, 4, 12, 12], "texture": "#all"},
+				"west": {"uv": [4, 4, 12, 12], "texture": "#all"},
+				"up": {"uv": [4, 4, 12, 12], "texture": "#3"},
+				"down": {"uv": [4, 4, 12, 12], "texture": "#4"}
+			}
+		},
+		{
+			"from": [12, 2.5, 4],
+			"to": [4, 10.5, 12],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, -1.5, 0]},
+			"faces": {
+				"north": {"uv": [12, 4, 4, 12], "texture": "#all"},
+				"east": {"uv": [12, 4, 4, 12], "texture": "#all"},
+				"south": {"uv": [12, 4, 4, 12], "texture": "#all"},
+				"west": {"uv": [12, 4, 4, 12], "texture": "#all"},
+				"up": {"uv": [12, 4, 4, 12], "texture": "#3"},
+				"down": {"uv": [12, 4, 4, 12], "texture": "#4"}
+			}
+		},
+		{
+			"from": [8, 0, 0],
+			"to": [8, 5.5, 16],
+			"rotation": {"angle": -45, "axis": "y", "origin": [8, 2.75, 8]},
+			"faces": {
+				"east": {"uv": [0, 10.5, 16, 16], "texture": "#2"},
+				"west": {"uv": [0, 10.5, 16, 16], "texture": "#2"}
+			}
+		},
+		{
+			"from": [0, 0, 8],
+			"to": [16, 5.5, 8],
+			"rotation": {"angle": -45, "axis": "y", "origin": [8, 2.75, 8]},
+			"faces": {
+				"north": {"uv": [0, 10.5, 16, 16], "texture": "#2"},
+				"south": {"uv": [0, 10.5, 16, 16], "texture": "#2"}
+			}
+		}
+	]
+}

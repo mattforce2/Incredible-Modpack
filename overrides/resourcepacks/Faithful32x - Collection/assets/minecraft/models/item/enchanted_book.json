@@ -1,0 +1,62 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "item/book",
+	"textures": {
+		"0": "item/enchanted_book"
+	},
+	"elements": [
+		{
+			"name": "Book",
+			"from": [5, 0, 6],
+			"to": [12, 10, 10],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 6, 9.25]},
+			"faces": {
+				"north": {"uv": [2, 3.5, 5.5, 8.5], "texture": "#0", "cullface": "north"},
+				"east": {"uv": [0, 3.5, 2, 8.5], "texture": "#0", "cullface": "north"},
+				"south": {"uv": [5.5, 3.5, 2, 8.5], "texture": "#0", "cullface": "north"},
+				"west": {"uv": [5.5, 3.5, 7.5, 8.5], "texture": "#0", "cullface": "north"},
+				"up": {"uv": [2, 0, 0, 3.5], "rotation": 270, "texture": "#0", "cullface": "north"},
+				"down": {"uv": [2, 3.5, 0, 0], "rotation": 90, "texture": "#0", "cullface": "north"}
+			}
+		},
+		{
+			"name": "Book",
+			"from": [4, 0, 9],
+			"to": [5, 10, 10],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 6, 9.25]},
+			"faces": {
+				"north": {"uv": [5.5, 3.5, 6, 8.5], "texture": "#0", "cullface": "north"},
+				"east": {"uv": [4.5, 0, 4.5, 0], "texture": "#0"},
+				"south": {"uv": [5.5, 3.5, 5, 8.5], "texture": "#0", "cullface": "north"},
+				"west": {"uv": [5.5, 3.5, 6, 8.5], "texture": "#0", "cullface": "north"},
+				"up": {"uv": [0.5, 0, 0, 0.5], "rotation": 270, "texture": "#0", "cullface": "north"},
+				"down": {"uv": [0.5, 0.5, 0, 0], "rotation": 90, "texture": "#0", "cullface": "north"}
+			}
+		},
+		{
+			"name": "Book",
+			"from": [4, 0, 6],
+			"to": [5, 10, 7],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 6, 9.25]},
+			"faces": {
+				"north": {"uv": [5.5, 3.5, 6, 8.5], "texture": "#0", "cullface": "north"},
+				"east": {"uv": [4.5, 0, 4.5, 0], "texture": "#0"},
+				"south": {"uv": [7.5, 3.5, 7, 8.5], "texture": "#0", "cullface": "north"},
+				"west": {"uv": [7, 3.5, 7.5, 8.5], "texture": "#0", "cullface": "north"},
+				"up": {"uv": [2, 0, 1.5, 0.5], "rotation": 270, "texture": "#0", "cullface": "north"},
+				"down": {"uv": [2, 0.5, 1.5, 0], "rotation": 90, "texture": "#0", "cullface": "north"}
+			}
+		},
+		{
+			"name": "Book",
+			"from": [4, 4, 7],
+			"to": [5, 6, 9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 6, 9.25]},
+			"faces": {
+				"west": {"uv": [2, 2.5, 3, 3.5], "texture": "#0", "cullface": "north"},
+				"up": {"uv": [3, 2.5, 2, 3], "rotation": 270, "texture": "#0", "cullface": "north"},
+				"down": {"uv": [3, 3.5, 2, 3], "rotation": 90, "texture": "#0", "cullface": "north"}
+			}
+		}
+	]
+}

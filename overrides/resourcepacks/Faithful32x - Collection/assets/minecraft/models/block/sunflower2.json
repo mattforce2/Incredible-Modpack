@@ -1,0 +1,6 @@
+{
+	"parent" : "block/sunflower",
+	"textures": {
+		"cross": "block/sunflower2"
+	}
+}
